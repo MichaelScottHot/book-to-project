@@ -1,0 +1,14 @@
+# Local credentials and private source material
+.env
+.env.*
+!.env.example
+*.epub
+*.pdf
+*.docx
+private-extract/
+**/manifest.json
+**/segment-*.txt
+
+# Python-generated files
+__pycache__/
+*.pyc
